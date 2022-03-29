@@ -1,0 +1,6 @@
+F:\tools\tools\超级SQL注入工具【SSQLInjection】V1.0 正式版 20200209\logs\injection\localhost\8080\JVApp\search.jsp/key_Blind-Time.xml 读取错误！未能找到路径“F:\tools\tools\超级SQL注入工具【SSQLInjection】V1.0 正式版 20200209\logs\injection\localhost\8080\JVApp\search.jsp\key_Blind-Time.xml”的一部分。----2021/3/10 16:23:01
+info：方法不存在----：未将对象引用设置到对象的实例。----2021/3/10 16:23:01
+info：方法不存在----：未将对象引用设置到对象的实例。----2021/3/10 16:23:09
+info：方法不存在----：未将对象引用设置到对象的实例。----2021/3/10 16:25:52
+info：方法不存在----：未将对象引用设置到对象的实例。----2021/3/10 16:26:32
+info：方法不存在----：未将对象引用设置到对象的实例。----2021/3/10 16:26:37

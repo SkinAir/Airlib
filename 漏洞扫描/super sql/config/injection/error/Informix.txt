@@ -1,0 +1,2 @@
+A syntax error has occurred
+Found a quote for which there is no matching quote

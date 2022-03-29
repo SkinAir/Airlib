@@ -1,0 +1,4 @@
+﻿之前有未闭合的引号
+SQLServerException
+SQLServer JDBC Driver
+Incorrect syntax

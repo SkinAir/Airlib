@@ -1,0 +1,4 @@
+syntax to use near
+MySQLSyntaxErrorException
+valid MySQL result
+SQL syntax

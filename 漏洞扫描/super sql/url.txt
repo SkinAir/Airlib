@@ -1,0 +1,1 @@
+http://114.215.130.13/index.php?a=reset_pw_confirm&c=Public&m=

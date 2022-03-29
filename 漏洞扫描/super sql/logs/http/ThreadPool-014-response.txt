@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Date: Thu, 03 Mar 2022 10:38:03 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=kph1v1nd58g85fupm4p93ts895; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: /index.php?m=&c=public&a=login
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+
+

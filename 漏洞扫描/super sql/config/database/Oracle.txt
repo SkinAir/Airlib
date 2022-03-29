@@ -1,0 +1,2 @@
+(select 1 from user_tables)>0
+exists(select 1 from user_tables)

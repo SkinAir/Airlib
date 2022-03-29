@@ -1,0 +1,4 @@
+exists(select 1 from sysuser:systables)
+exists(select 1 from systables)
+exists(select count(*)  from sysuser:systables)>0
+exists(select count(*) from systables)>0

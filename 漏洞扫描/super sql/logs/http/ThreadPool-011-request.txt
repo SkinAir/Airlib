@@ -1,0 +1,6 @@
+GET /index.php?m=&c=public&a=login HTTP/1.1
+User-Agent: BaiduSpider
+Accept-Encoding: gzip, deflate
+Host: 114.215.130.13:80
+
+

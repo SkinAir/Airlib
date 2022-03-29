@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Proxy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <host>127.0.0.1</host>
+  <port>1082</port>
+  <proxyType>Socks5</proxyType>
+  <username />
+  <password />
+  <isOk>是</isOk>
+  <useTime>92</useTime>
+  <checkTime />
+</Proxy>

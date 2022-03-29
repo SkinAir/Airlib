@@ -1,0 +1,3 @@
+(select count(1) from sqlite_master)>0
+(select 1 from sqlite_master)>0
+length(sqlite_source_id())>0

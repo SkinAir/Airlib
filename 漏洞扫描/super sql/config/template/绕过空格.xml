@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <domain />
+  <port>0</port>
+  <maxTime>0</maxTime>
+  <injectType>UnKnow</injectType>
+  <dbType>UnKnow</dbType>
+  <timeOut>10</timeOut>
+  <threadSize>5</threadSize>
+  <reTry>1</reTry>
+  <encoding>自动识别</encoding>
+  <request />
+  <sencondRequest>
+</sencondRequest>
+  <key>KEY</key>
+  <db_encoding>UTF-8</db_encoding>
+  <useCode>false</useCode>
+  <columnsCount>0</columnsCount>
+  <sencondInject>false</sencondInject>
+  <showColumn>0</showColumn>
+  <reverseKey>false</reverseKey>
+  <keyType>Key</keyType>
+  <isMuStr>true</isMuStr>
+  <is_foward_302>false</is_foward_302>
+  <isOpenInfoLog>true</isOpenInfoLog>
+  <isOpenHTTPLog>true</isOpenHTTPLog>
+  <isAutoCheckUpdate>true</isAutoCheckUpdate>
+  <isSavaConfigWhenClose>true</isSavaConfigWhenClose>
+  <useSSL>false</useSSL>
+  <isOpenURLEncoding>true</isOpenURLEncoding>
+  <redirectDoGet>false</redirectDoGet>
+  <maxClolumns>50</maxClolumns>
+  <urlencodeCount>1</urlencodeCount>
+  <unionFill>1</unionFill>
+  <token_request />
+  <token_startStr />
+  <token_endStr />
+  <readFileEncoding>GBK</readFileEncoding>
+  <showCmdResult>true</showCmdResult>
+  <reaplaceBeforURLEncode>true</reaplaceBeforURLEncode>
+  <inculdeStr>false</inculdeStr>
+  <keyReplace>0</keyReplace>
+  <randIPToHeader />
+  <sendHTTPSleepTime>0</sendHTTPSleepTime>
+  <replaceStrs> 	/**/
+</replaceStrs>
+  <base64Count>0</base64Count>
+  <useBetweenByPass>false</useBetweenByPass>
+  <usehex>false</usehex>
+  <level>0</level>
+  <linkCount>1</linkCount>
+  <maxSpiderCount>10</maxSpiderCount>
+  <maxScanCount>10</maxScanCount>
+</Config>

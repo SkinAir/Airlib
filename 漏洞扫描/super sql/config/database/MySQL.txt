@@ -1,0 +1,2 @@
+(select 1 from information_schema.CHARACTER_SETS limit 1)>0
+exists(select 1 from information_schema.CHARACTER_SETS)

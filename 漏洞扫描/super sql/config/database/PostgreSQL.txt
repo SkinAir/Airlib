@@ -1,0 +1,2 @@
+(select 1 from pg_ts_config limit 1)>0
+exists(select 1 from pg_tables)

@@ -1,0 +1,8 @@
+﻿数据库版本：version()
+当前数据库：current_schema()
+当前用户：current_user
+是否DBA：(select usesuper from pg_user where usename=current_user limit 1)
+数据库IP：inet_server_addr()
+应用连接IP：inet_client_addr()
+数据目录：(select setting from pg_settings where name='data_directory')
+Hash密码：(select passwd from pg_shadow limit 1)

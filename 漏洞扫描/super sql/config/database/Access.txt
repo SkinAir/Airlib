@@ -1,0 +1,3 @@
+(select count(*) from MSysAccessObjects)>0
+(select count(*) from MSysObjects)>0
+ascw(chr(32))=32

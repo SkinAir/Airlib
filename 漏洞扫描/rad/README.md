@@ -1,0 +1,1 @@
+python3   rad+xray.py 文件名
